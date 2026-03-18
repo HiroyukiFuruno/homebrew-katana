@@ -16,6 +16,12 @@ cask "katana-desktop" do
 
   app "KatanA Desktop.app"
 
+  # Remove quarantine attribute (required for ad-hoc signed apps without Apple notarization)
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/KatanA Desktop.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.katana.desktop.plist",
     "~/Library/Caches/com.katana.desktop",
