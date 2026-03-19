@@ -1,10 +1,10 @@
 cask "katana-desktop" do
-  version "0.1.3"
-  sha256 "b3049a80856ebf0edd0a2e478e612157176c81b748db8b036ef56190ce1efcba"
+  version "0.1.4"
+  sha256 "ca40e90b5b1e77bdacfcd1c66d2d10fcbb25f6d5a7fed63480e4dcf2a9379cf7"
 
   url "https://github.com/HiroyukiFuruno/katana/releases/download/v#{version}/KatanA-Desktop-#{version}.dmg"
   name "KatanA Desktop"
-  desc "Markdown viewer with live preview, Mermaid diagrams & syntax highlighting"
+  desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/katana"
 
   livecheck do
@@ -19,13 +19,11 @@ cask "katana-desktop" do
   # Remove quarantine attribute (required for ad-hoc signed apps without Apple notarization)
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/KatanA Desktop.app"]
+         args: ["-cr", "#{appdir}/KatanA Desktop.app"]
   end
 
   zap trash: [
-    "~/Library/Caches/com.katana.desktop",
     "~/Library/Preferences/com.katana.desktop.plist",
+    "~/Library/Caches/com.katana.desktop",
   ]
-
-  caveats "⚔️  KatanA Desktop was successfully installed!"
 end
