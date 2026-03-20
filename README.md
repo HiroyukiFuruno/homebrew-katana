@@ -1,6 +1,6 @@
 # homebrew-katana
 
-Homebrew tap for [KatanA Desktop](https://github.com/HiroyukiFuruno/katana) — a lightweight Markdown viewer for macOS.
+Homebrew tap for [KatanA Desktop](https://github.com/HiroyukiFuruno/katanA) — a lightweight Markdown viewer for macOS.
 
 ## Installation
 
