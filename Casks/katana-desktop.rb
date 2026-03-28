@@ -1,6 +1,6 @@
 cask "katana-desktop" do
-  version "0.7.10"
-  sha256 "5685dfe936792acc90b2efe67a22aa15b19e08afa8edf8337a376ae0511bb9af"
+  version "0.8.0"
+  sha256 "b78d014b769eb906ac2b77d102f697fd8ed616b709bad0884b27d06e6c282527"
 
   url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v#{version}/KatanA-Desktop-#{version}.dmg"
   name "KatanA Desktop"
