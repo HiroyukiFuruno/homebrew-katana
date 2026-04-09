@@ -3,9 +3,9 @@ class KatanaDesktop < Formula
   homepage "https://github.com/HiroyukiFuruno/KatanA"
   version "0.18.0"
 
-  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/0.18.0/KatanA-linux-x86_64.tar.gz"
-  sha256 "31777b7e7de3a7ec3421b79733e283c14ae64114ff32136d05bb0d184d56f7e1"
-  
+  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.18.0/KatanA-linux-x86_64.tar.gz"
+  sha256 "22b29ac3be3fac02cb4fc4eac5f074c9c6f298aa13d3eea3ecd9bc171dea3050"
+
   depends_on :linux
 
   def install
