@@ -1,4 +1,4 @@
-class Katana < Formula
+class KatanaDesktop < Formula
   desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
   version "0.18.0"
