@@ -1,10 +1,10 @@
 class KatanaDesktop < Formula
   desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
-  version "0.22.1-1"
+  version "0.22.2"
 
-  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.1-1/KatanA-linux-x86_64.tar.gz"
-  sha256 "c63c39eb64817af614e3930b028de04b12cd88ddd900bd7be75524937550346d"
+  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.2/KatanA-linux-x86_64.tar.gz"
+  sha256 "e05d1ea4afc9579434a5262140ed48fb76507d6baf2db983317fe1afd8c0e0d4"
 
   depends_on :linux
 
