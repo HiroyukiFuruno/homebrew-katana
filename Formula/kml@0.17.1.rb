@@ -4,6 +4,8 @@ class KmlAT0171 < Formula
   version "0.17.1"
   license "MIT"
 
+  keg_only :versioned_formula
+
   on_macos do
     on_arm do
       url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.17.1/kml-v0.17.1-aarch64-apple-darwin.tar.gz"
