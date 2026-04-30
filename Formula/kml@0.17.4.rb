@@ -1,4 +1,4 @@
-class Kml < Formula
+class KmlAT0174 < Formula
   desc "Markdownlint-compatible Markdown linter library and CLI"
   homepage "https://github.com/HiroyukiFuruno/katana-markdown-linter"
   version "0.17.4"
