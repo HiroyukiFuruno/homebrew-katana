@@ -1,24 +1,24 @@
 class Kml < Formula
   desc "Markdownlint-compatible Markdown linter library and CLI"
   homepage "https://github.com/HiroyukiFuruno/katana-markdown-linter"
-  version "0.18.5"
+  version "0.18.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.5/kml-v0.18.5-aarch64-apple-darwin.tar.gz"
-      sha256 "88394d3fffeef610487d9356bd043c1c8a31f9d26a6613facf9d0060e13ec448"
+      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.6/kml-v0.18.6-aarch64-apple-darwin.tar.gz"
+      sha256 "3fe744692f1b6326e27210642bbfa908d379124da96e07daa21ef16153ab14bc"
     end
     on_intel do
-      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.5/kml-v0.18.5-x86_64-apple-darwin.tar.gz"
-      sha256 "28f89aef29c9dba87056dd0bad7bee3412011455edde4032ff337b6549dd96ae"
+      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.6/kml-v0.18.6-x86_64-apple-darwin.tar.gz"
+      sha256 "e812cbab74039b73d5756c65907e784a7a28644f73ec3c30aaed3a88254a0b99"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.5/kml-v0.18.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7ba16f70f0079f4bff21ea27261f44be6f131d1cc2a141fc4c6202294819f860"
+      url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.18.6/kml-v0.18.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3ced45426c89eb827fd29c42aaa21ba5e2845663459ffea5c928b81ee4a40145"
     end
   end
 
