@@ -8,6 +8,8 @@ class KatanaDesktopAT02212 < Formula
 
   depends_on :linux
 
+  link_overwrite "bin/katana-desktop"
+
   def install
     bin.install "KatanA" => "katana-desktop"
   end

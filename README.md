@@ -38,6 +38,13 @@ brew install --cask katana-desktop
 brew install katana-desktop
 ```
 
+Install a specific Linux version:
+
+```sh
+brew update
+brew reinstall katana-desktop@0.22.14
+```
+
 Update:
 
 ```sh
