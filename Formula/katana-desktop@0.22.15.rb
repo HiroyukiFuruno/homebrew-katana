@@ -9,6 +9,6 @@ class KatanaDesktopAT02215 < Formula
   depends_on :linux
 
   def install
-    bin.install "KatanA"
+    bin.install "KatanA" => "katana-desktop"
   end
 end
