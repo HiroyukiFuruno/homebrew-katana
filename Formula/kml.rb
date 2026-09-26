@@ -7,18 +7,18 @@ class Kml < Formula
   on_macos do
     on_arm do
       url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.19.5/kml-v0.19.5-aarch64-apple-darwin.tar.gz"
-      sha256 "070135480b090defdb44d0aba7eff5cb716061dc99892c69a6e9ab43a4294c52"
+      sha256 "5dba47dad20b03bd1d0729c9a0e95f91efe5b4d7f1067bbb77d67dc83ddbb75d"
     end
     on_intel do
       url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.19.5/kml-v0.19.5-x86_64-apple-darwin.tar.gz"
-      sha256 "ec213dcaea7826343c738285c8ee3b1474b942874ea302c175fb7b5b8a93381c"
+      sha256 "1f649a7f87ba8b04ddd28711615574ca51c4a8204645004123500af771640dce"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/HiroyukiFuruno/katana-markdown-linter/releases/download/v0.19.5/kml-v0.19.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3fc6a9026ce7d02597e64f4e9928b723dec33e4a3ff5860c6a65f27300cb8b63"
+      sha256 "481f64f86ae3507629ba260f0ad929ba3dfd7b1bbfb4dd0f61346042235b4352"
     end
   end
 
