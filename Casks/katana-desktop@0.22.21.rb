@@ -4,7 +4,7 @@ cask "katana-desktop@0.22.21" do
 
   url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.21/KatanA-Desktop-0.22.21.dmg"
   name "KatanA Desktop"
-  desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
+  desc "Markdown viewer with live preview, Mermaid diagrams and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
 
   depends_on macos: :ventura
@@ -17,7 +17,7 @@ cask "katana-desktop@0.22.21" do
   end
 
   zap trash: [
-    "~/Library/Preferences/com.katana.desktop.plist",
     "~/Library/Caches/com.katana.desktop",
+    "~/Library/Preferences/com.katana.desktop.plist",
   ]
 end

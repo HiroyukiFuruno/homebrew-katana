@@ -4,7 +4,7 @@ cask "katana-desktop" do
 
   url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.42/KatanA-Desktop-0.22.42.dmg"
   name "KatanA Desktop"
-  desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
+  desc "Markdown viewer with live preview, Mermaid diagrams and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
 
   livecheck do
@@ -22,7 +22,7 @@ cask "katana-desktop" do
   end
 
   zap trash: [
-    "~/Library/Preferences/com.katana.desktop.plist",
     "~/Library/Caches/com.katana.desktop",
+    "~/Library/Preferences/com.katana.desktop.plist",
   ]
 end
