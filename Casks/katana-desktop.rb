@@ -1,8 +1,8 @@
 cask "katana-desktop" do
-  version "0.22.42"
-  sha256 "757a5a503170d351c91f436496b73c3e3c800f1b86614cc2ef3ec34f0df889fb"
+  version "0.22.43"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.42/KatanA-Desktop-0.22.42.dmg"
+  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.43/KatanA-Desktop-0.22.43.dmg"
   name "KatanA Desktop"
   desc "Lightweight Markdown viewer with live preview, Mermaid diagrams, and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
@@ -12,14 +12,13 @@ cask "katana-desktop" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "KatanA Desktop.app"
 
   # Remove quarantine attribute (required for ad-hoc signed apps without Apple notarization)
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/KatanA Desktop.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/KatanA Desktop.app"]
   end
 
   zap trash: [
