@@ -1,8 +1,8 @@
 cask "katana-desktop" do
-  version "0.22.46"
-  sha256 "f5b986ead638576d235ada642e5f3d2687d5761fa52ad5c2670fb7f400ddd8ae"
+  version "0.22.47"
+  sha256 "32f7d255996860a3d6d2bce1150abe13c454aa7e83e4dfbc9a1bd958859121e5"
 
-  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.46/KatanA-Desktop-0.22.46.dmg"
+  url "https://github.com/HiroyukiFuruno/KatanA/releases/download/v0.22.47/KatanA-Desktop-0.22.47.dmg"
   name "KatanA Desktop"
   desc "Markdown viewer with live preview, Mermaid diagrams and syntax highlighting"
   homepage "https://github.com/HiroyukiFuruno/KatanA"
